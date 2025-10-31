@@ -18,3 +18,15 @@ A full-stack productivity app.
 * CI/CD: GitHub Actions
 * Deploy: Docker + Railway (or AWS later)
 * Tests: pytest, Jest
+
+
+## Data Schemas
+### Task Schema
+    id: Primary Key
+    title: Display name
+    description: Optional notes
+    status: Pending/Completed
+    created_at : Stats & streaks later
+    completed_at: Calculate completion time
+    pomodoro_count: Tracks # of pomos per task
+
